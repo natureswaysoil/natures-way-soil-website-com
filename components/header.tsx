@@ -1,7 +1,8 @@
-// components/header.tsx
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
-import { CartButton } from '@/components/cart-button';
+import CartButton from '@/components/cart-button';
 
 export default function Header() {
   return (
