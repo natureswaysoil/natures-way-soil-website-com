@@ -1,0 +1,11 @@
+id,title,description,price,active,sku,variations
+1,Nature's Way Soil Dog Urine Neutralizer & Lawn Revitalizer 32oz,Enzyme spray repairs yellow spots and revives lawns,29.98,TRUE,NWS-DOG-URINE-32OZ,32oz:29.98
+2,Nature's Way Soil Liquid Kelp Fertilizer 32oz,Cold processed seaweed extract boosts growth,24.99,TRUE,NWS-LIQ-KELP-32OZ,16oz:16.99;32oz:24.99;64oz:44.99
+3,Nature's Way Soil Organic Tomato Liquid Fertilizer 1gal,Vitamin B1 and aloe for strong roots and transplants,29.99,TRUE,NWS-TOMATO-1GAL,32oz:20.99;1gal:29.99
+4,Nature's Way Soil Organic Liquid Fertilizer for Garden and House Plants 1gal,USDA biobased blend with B vitamins and aloe,20.26,TRUE,NWS-GARDEN-HOUSE-1GAL,32oz:14.99;1gal:20.26
+5,Nature's Way Soil Liquid Bone Meal Fertilizer 1gal,Fast absorbing phosphorus and calcium for roots,39.99,TRUE,NWS-LIQ-BONE-1GAL,32oz:24.99;1gal:39.99
+6,Nature's Way Soil Organic Hydroponic Fertilizer Concentrate 32oz,Organic concentrate makes 512 gallons of solution,25.98,TRUE,NWS-HYDRO-32OZ,32oz:25.98;64oz:44.99
+7,Nature's Way Soil Enhanced Living Compost,Duckweed extract worm castings biochar and compost,29.98,TRUE,NWS-LIVING-COMPOST,1cuft:29.98
+8,Nature's Way Soil Hay Pasture & Lawn Fertilizer 2.5gal,Pet safe microbial nitrogen blend for turf and forage,99.99,TRUE,NWS-HAY-PASTURE-25GAL,1gal:66.99;2.5gal:99.99
+9,Nature's Way Soil Seaweed & Humic Acid Lawn Treatment 32oz,Kelp and humic acid blend revitalizes soil,32.29,TRUE,NWS-SEAWEED-HUMIC-32OZ,32oz:32.29;1gal:64.99
+10,Nature's Way Soil Liquid Humic & Fulvic Acid with Organic Kelp 2.5gal,Humic and fulvic acids with kelp stimulate growth,69.99,TRUE,NWS-HUMIC-FULVIC-KELP-25GAL,32oz:24.99;1gal:39.99;2.5gal:69.99
