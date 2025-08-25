@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import * as Cart from '@/lib/cart';
@@ -13,6 +15,7 @@ export function ProductInfo({ product }: { product: Product }) {
       <h1 className="text-2xl font-bold">{product.title}</h1>
       <p className="text-gray-700">{product.description}</p>
 
+      {/* Variation selector */}
       {product.variations && (
         <select
           value={selected.name}
@@ -37,7 +40,7 @@ export function ProductInfo({ product }: { product: Product }) {
           ${(selected.price / 100).toFixed(2)}
         </span>
         <button
-          onClick={() => Cart.addToCart(product.slug, selected.name)}
+          onClick={() => Cart.addItem({ id: product.slug, title: product.title, price_cents: selected.price, image: product.image, qty: 1 })}
           className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
         >
           Add to Cart
@@ -49,6 +52,15 @@ export function ProductInfo({ product }: { product: Product }) {
           Buy Now
         </Link>
       </div>
+
+      {/* Optional: list benefits, usage, etc. */}
+      {product.benefits && (
+        <ul className="list-disc list-inside">
+          {product.benefits.map((b) => (
+            <li key={b}>{b}</li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
