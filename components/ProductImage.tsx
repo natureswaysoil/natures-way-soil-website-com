@@ -1,3 +1,4 @@
+// components/ProductImage.tsx
 import Image from 'next/image';
 
 export function ProductImage({ src, alt }: { src: string; alt: string }) {
@@ -9,6 +10,7 @@ export function ProductImage({ src, alt }: { src: string; alt: string }) {
         width={600}
         height={600}
         className="rounded-lg"
+        priority
       />
     </div>
   );
